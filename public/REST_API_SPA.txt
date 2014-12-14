@@ -1,0 +1,40 @@
+REST API SPA
+
+
+REST API STUDENT
+**********************
+
+GET
+---------------
+/student	(data for logged in student via getStudentDetails(id))
+/semester
+/semester/period
+
+
+
+
+
+
+REST API TEACHER
+**********************
+
+GET
+---------------
+/student		gets details for all students via getStudents()
+/student/:id		gets details for specific student getStudentDetails(id)
+/semester/:class
+/semester/:student
+/semester/period/:class
+/semester/period/:student
+/semester/period/day/:class
+/semester/period/day/:student
+/semester/period/task/:class
+/semester/period/task/:student
+
+
+POST
+---------------
+/student		creates a new student via addStudent(username, role)
+/student/:id		edit scores for a student via updateScores(id, scores)
+/semester		create new semester via addSemester()
+/semester/period	create new period in semester via addPeriod()

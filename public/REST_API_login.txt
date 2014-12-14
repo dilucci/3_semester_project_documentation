@@ -1,0 +1,6 @@
+REST API login
+
+POST
+---------------
+/autenticate	(checks if username and password exist in db, if so gets the user details via authenticate(login, password)).
+/updatePassword	(updates password if correct old password is entered via updatePassword(username, passwordOld, passwordNew)).
